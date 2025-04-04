@@ -49,7 +49,9 @@ a{
     padding: 5px 30px; /* Increase size */
 }
 .hero{
-    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
 }
 .leftside{
     display: flex;
@@ -58,9 +60,7 @@ a{
     width: 50%;
     margin: 30px;
 }
-.rightside{
-    width: 50%;
-}
+
 .leftside h1{
     color: #FFFFFF;
     font-weight: 700;
@@ -105,4 +105,19 @@ a{
     
     margin-left: 5px;
     width: 10px;
+}
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{}
+.grp19 {
+    position: absolute;
+    height: 800px;
+    width: 712px;
+    top:0;
+    right: 0;
+    background: none;
+    cursor: grab;
 }
