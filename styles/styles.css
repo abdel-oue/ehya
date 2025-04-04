@@ -8,15 +8,18 @@ a{
     outline: none;
 }
 .navbarinhero{
+    display: flex;
+    flex-direction: column;
     height: 860px;
     width: 100%;
     background: linear-gradient(45deg, #00A8DB, #27C0EF);
+    gap: 28px;
 }
 .navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 80px;
+    padding: 30px 70px;
     height: 38px;
 }
 .logo{
@@ -24,9 +27,6 @@ a{
     justify-content: center;
     align-items: center;
     width: 10%;
-}
-.logo img{
-
 }
 .navigation{
     display: flex;
@@ -47,4 +47,62 @@ a{
     background: linear-gradient(45deg,#328BCB,#005490);
     border-radius: 5px;
     padding: 5px 30px; /* Increase size */
+}
+.hero{
+    margin: 0px 50px;
+}
+.leftside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 30px;
+}
+.rightside{
+    width: 50%;
+}
+.leftside h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 64px;
+    width: 623px;
+    margin-bottom: 0px;
+}
+.leftside img{
+    position: relative;
+    top: -26px;
+    width: 200px;
+    height: 51px;
+}
+.leftside p{
+    color: #FFFFFF;
+    width: 459px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+    gap: 60px;
+}
+.btns a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btns a:first-child {
+    color: #00A8DB;
+    background-color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+.btns a:last-child{
+    color: #FFFFFF;
+    align-self: center;
+}
+.btns i{
+    display: flex;
+    
+    margin-left: 5px;
+    width: 10px;
 }
