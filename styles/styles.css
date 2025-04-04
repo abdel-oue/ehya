@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+.navbarinhero{
+    height: 860px;
+    width: 100%;
+    background: linear-gradient(45deg, #00A8DB, #27C0EF);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 80px;
+    height: 38px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.logo img{
+
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.navigation i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.navigation a{
+    font-size: 14px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+.loginbutton{
+    background: linear-gradient(45deg,#328BCB,#005490);
+    border-radius: 5px;
+    padding: 5px 30px; /* Increase size */
+}
