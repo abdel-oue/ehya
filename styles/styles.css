@@ -10,6 +10,7 @@ a{
 .navbarinhero{
     display: flex;
     flex-direction: column;
+    position: relative;
     height: 860px;
     width: 100%;
     background: linear-gradient(45deg, #00A8DB, #27C0EF);
@@ -107,17 +108,20 @@ a{
     width: 10px;
 }
 .rightside{
+    width: 50%;
+}
+.navbarinhero .grpe19{
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    width: 650px;
+    height: auto;
+}
+.partners{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.circle{}
-.grp19 {
-    position: absolute;
-    height: 800px;
-    width: 712px;
-    top:0;
-    right: 0;
-    background: none;
-    cursor: grab;
+.partners img{
+    padding: 120px;
 }
