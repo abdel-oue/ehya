@@ -269,23 +269,52 @@ a{
 }
 .block{
     background-color: #FFFFFF;
-    width: 258px;
-    height: 300px;
+    width: 218px;
+    height: 260px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.svgc1{
+    background: linear-gradient(to top left,#EF4444,#FF8989);
+    
+}
+.svgc2{
+    background: linear-gradient(to top left,#3B82F6,#86B4FF);
+}
+.svgc3{
+    background: linear-gradient(to top left,#F59E0B,#FFD285);
+}
+.svgc4{
+    background: linear-gradient(to top left,#14B8A6,#48DFCE);
 }
 .block .svg{
+    fill: white;
     height: 24px;
     width: 24px;
-    padding: 23px;
+    padding: 16px;
+    margin: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-
+    border-radius: 10px;
 }
-
 .block h2{
     color: #034D82;
     font-weight: 700;
     font-size: 20px;
-    line-height: 52px;
+    line-height: 28px;
+}
+.block p{
+    color: #90A3B4;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 5px;
+    width: 188px;
+}
+.highlight{
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.2);
+
 }
