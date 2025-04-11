@@ -723,5 +723,69 @@ a:hover{
         padding: 60px;
     }
 }
-@media (max-width: 425){
+.burger{
+    display: none;
+}
+@media (max-width: 560px){
+    
+    .navigation{
+        display: none;
+    }
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .burger .line {
+        height: 3px;
+        width: 25px;
+        background-color: #005490;
+    }
+    .leftside{
+        transform: scale(0.8);
+    }
+    .navbarinhero{
+        height: 700px;
+        gap: 0px;
+    }
+    .partners img {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .leftside1{
+        width: 0%;
+    }
+    .rightside1{
+        width: 100%;
+        padding: 20px;
+    }
+    .element3{
+        height: 250vh;
+    }
+    .element2{
+        flex-direction: column;
+    }
+    .leftside1 .imggrp {
+        display: none;
+    }
+    .leftside2,.rightside2{
+        width: 100%;
+    }
+    .rightside2 img{
+        margin-top: 20px;
+        width: 50%;
+    }
+    .element4{
+        transform: scale(0.75);
+    }
+    .groupe{
+        height: 20%;
+    }
+    .element5{
+        margin: 0;
+    }
 }
