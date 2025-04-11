@@ -40,3 +40,7 @@ Coded by dryal
 ## 📜 License
 
 MIT – use it, clone it, rip it off.
+
+# ⚠️ Disclaimer
+
+I do not own any of the images used in this project. All images are sourced from external free image providers, and proper credit should be given where applicable.
