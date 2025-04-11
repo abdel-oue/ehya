@@ -589,3 +589,139 @@ a:hover{
     transition: all 0.3s ease-in-out; /* Smooth transition */
     transform: scale(1.02); /* Slight scale on hover */
 }
+@media (max-width: 1024px) {
+    .rightside{
+        display: none;
+    }
+    .grpe19{
+        display: none;
+    }
+    .leftside{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .partners img{
+        width: 80%;
+        padding: 80px;
+    }
+    .leftside1 .imgvec {
+        display: none;
+    }
+    .leftside1 .imggrp {
+        margin-left: 20px;
+    }
+    .leftside1{
+        width: 50%;
+    }
+    .element2{
+        margin: 40px;
+    }
+    .rightside2{
+        width: 45%;
+        height: auto;
+    }
+    .rightside2 img{
+        width: 120%;
+        height: auto;
+    }
+    .blocks3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .block{
+        width: 200px;
+    }
+    .element3{
+        height: 130vh;
+    }
+    .element4{
+        flex-direction: column;
+        align-items: center;
+    }
+    .review{
+        margin-top: 90px;
+    }
+    .iconright{
+        background: none;
+        color: #005490;
+        top: 70px;
+    }
+    .icon{
+        top: 70px;
+    }
+    .eclipse{
+        display: none;
+    }
+    .groupe{
+        height: 70%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .partie1{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .partie1 p{
+        width: fit-content;
+        padding-left: 0px;
+
+    }
+    .others {
+        padding-left: 0px;
+    }
+    .partie2 a{
+        left: 0px;
+        padding: 10px 10px;
+        width: 132px;
+        margin-top: 20px;
+    }
+    .element5{
+        margin-top: 100px;
+    }
+    .logo i{
+        padding: 8px;
+    }
+}
+@media (max-width: 768px){
+    .hero{
+        margin: 0px;
+    }
+    .leftside1 .imggrp{
+        margin: 0px;
+        width: 300px;
+    }
+    .leftside1{
+        display: flex;
+        align-items: center;
+    }
+    .element2 {
+        margin: 25px;
+    }
+    .titlings{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .partners img {
+        width: 80%;
+        padding: 60px;
+    }
+}
+@media (max-width: 425){
+}
