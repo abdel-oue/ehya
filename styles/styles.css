@@ -727,7 +727,10 @@ a:hover{
     display: none;
 }
 @media (max-width: 560px){
-    
+    .navbar{
+        padding: 10px 50px;
+        padding-right: 30px;
+    }
     .navigation{
         display: none;
     }
@@ -746,7 +749,11 @@ a:hover{
         background-color: #005490;
     }
     .leftside{
-        transform: scale(0.8);
+        transform: scale(0.7);
+        margin: 0px;
+    }
+    .leftside h1{
+        width: 600px;
     }
     .navbarinhero{
         height: 700px;
@@ -782,10 +789,114 @@ a:hover{
     .element4{
         transform: scale(0.75);
     }
-    .groupe{
-        height: 20%;
-    }
     .element5{
         margin: 0;
+    }
+    .iconright{
+        right: 50px;
+    }
+    .icon{
+        left: 40px;
+    }
+    .others,.partie2 img,.partie1 p{
+        display: none;
+    }
+    .groupe{
+        width: 70%;
+        height: 40%;
+    }
+    .partie2 a{
+        display: block;
+        margin: 0px;
+    }
+    .partie1 h1{
+        padding: 0px;
+    }
+    .footer {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .el {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .el .logo {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .stuff {
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .copyright {
+        margin-top: 40px;
+    }
+
+    .logo p {
+        margin: 20px 0;
+    }
+
+    .logo i {
+        margin: 5px;
+    }
+
+    .el .logo ul {
+        display: none; /* if those ul links too messy, hide */
+    }
+
+    .stuff h3,
+    .stuff a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 376px){
+    .leftside h1{
+        width: 500px;
+    }
+    .leftside img{
+        top: -28px;
+        left: 150px;
+    }
+    .review{
+        transform: scale(0.85);
+    }
+    .quote{
+        display: none;
+    }
+}
+@media(max-width: 321px){
+    .leftside h1{
+        width: 460px;
+    }
+    .leftside img{
+        top: -28px;
+        left: 0px;
+    }
+    .review{
+        transform: scale(0.75);
+    }
+    .rightside2{
+        display: none;
+    }
+    .right h1{
+        width: 400px;
+    }
+    .right h3{
+        width: 200px;
+    }
+    .icon,.iconright{
+        display: none;
+    }
+    .partie1 h1{
+        width: 200px;
+        font-size: 30px;
+        line-height: 30px;
     }
 }
