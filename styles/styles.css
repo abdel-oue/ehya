@@ -589,7 +589,10 @@ a:hover{
     transition: all 0.3s ease-in-out; /* Smooth transition */
     transform: scale(1.02); /* Slight scale on hover */
 }
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
+    .hero{
+        margin: 0px;
+    }
     .rightside{
         display: none;
     }
@@ -690,6 +693,13 @@ a:hover{
     .logo i{
         padding: 8px;
     }
+    .leftside1 img {
+        margin: 80px;
+        height: 460px;
+    }
+    .leftside1{
+        align-items: center;
+    }
 }
 @media (max-width: 768px){
     .hero{
@@ -698,6 +708,7 @@ a:hover{
     .leftside1 .imggrp{
         margin: 0px;
         width: 300px;
+        height: auto;
     }
     .leftside1{
         display: flex;
