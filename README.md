@@ -22,7 +22,7 @@ This is a simple responsive landing page made with vanilla HTML, CSS, and Font A
 │   └── Images/
 ```
 
-🧟 Folder's called `assests` instead of `assets` 'cause I was straight-up slacking. I’m not renaming 50 image paths, so deal with it.
+🧟 Folder's called `assests` instead of `assets` 'cause I was straight-up slacking. I’m not renaming 50 image paths.
 
 ## 🚀 How to Use
 
